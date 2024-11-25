@@ -40,6 +40,7 @@ body{
 }
 
 nav{
+    /* background-color: beige; */
     background-color: burlywood;
     text-align: center;
     padding: 1rem;
@@ -53,7 +54,7 @@ nav ul{
 }
 
 .active{
-    color: white;
+    color: black;
 }
 
 nav>ul>li{
@@ -65,6 +66,7 @@ nav a{
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: bold;
+    color: indigo;
 }
 
 nav>ul>li>a{
@@ -74,7 +76,7 @@ nav>ul>li>a{
 }
 
 nav>ul>li>a:hover{
-    color: white;
+    color: #7f5f14;
 }
 
 nav ul li ul{ /* applies styles only to the sub menu */
@@ -161,6 +163,20 @@ table caption{
     display: block;  /* to remove any extra spacing */
     width: 100%;
     clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+}
+
+.video{
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    margin-top: 1.5rem;
+}
+
+form>div{
+    margin: 1.5rem 0rem;
+}
+
+.form-group>label{
+    margin-bottom: 0.5rem;
 }
 
 aside{
