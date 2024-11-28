@@ -2,31 +2,6 @@ html{
     font-size: 18px;
 }
 
-/* header{
-    grid-area: hd;
-}
-nav{
-    grid-area: nv;
-}
-main{
-    grid-area: mn;
-}
-aside{
-    grid-area: as;
-}
-footer{
-    grid-area: ft;
-}
-
-body{
-    display: grid;
-    grid-template-areas:
-    "hd hd hd"
-    "nv nv nv"
-    "mn mn as"
-    "ft ft ft" ;
-} */
-
 body{
     width: 80%;
     border: 2px solid navy;
@@ -72,7 +47,6 @@ nav a{
 
 nav>ul>li>a{
     padding: 1rem;
-    /* background-color: burlywood; */
     margin: 1rem 3rem;
 }
 
@@ -180,7 +154,7 @@ form>div{
     margin: 1.5rem 0rem;
 }
 
-.form-group>label{
+form label{
     margin-bottom: 0.5rem;
 }
 
@@ -198,7 +172,6 @@ aside ul{
     right: 0;
     top: 0;
     bottom: 0;
-    /* color: aqua; */
     background-color: rgba(255, 255, 255, 50%);
     padding: 1.5rem;
 }
@@ -234,13 +207,11 @@ footer{
         font-size: 0.7rem;
     }
     nav li{
-        /* display: block; */
         width: 100%;
         padding: 0.5rem 0;
     }
     .main_and_aside{
         flex-direction: column;
-        /* grid-template-columns: 1fr; */
     }
     main{
         margin: 0rem 0rem 0.7rem 0rem;
